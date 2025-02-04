@@ -1,0 +1,94 @@
+* {
+  margin: 0 auto;
+  text-decoration: none;
+}
+
+body {
+  background-color: rgb(240, 240, 240);
+  color: rgb(60, 120, 190);
+  font-family: poppinsregular;
+  max-width: 1200px;
+  padding: 15px;
+}
+
+li{
+  display: inline-block;
+  margin: 20px;
+}
+
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-title{
+  margin-top: 20px;
+  font-size: 46px;
+}
+
+a{
+  color: rgb(60, 120, 190);
+}
+
+a:hover{
+  color:rgb(13, 99, 211);
+  transition: 0.3s all;
+}
+
+#title {
+  flex-direction: column;
+  font-weight: 200;
+}
+
+#div-main{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 50px;
+}
+
+#h1-page{
+  font-size: 46px;
+  padding: 1%;
+}
+
+p{
+  font-size: 16px;
+  line-height: 30px;
+  max-width: 500px;
+}
+
+
+.general-text{
+  padding: 16px;
+  display:flex;
+  justify-content: space-between;
+  text-align: justify;
+  
+
+}
+
+.conquistas{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.conquista {
+  width: 30%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin: 7px;
+  align-items: center;
+  text-align: center;
+}
+
+#img-curuzu{
+  margin-top: 10px;
+  border: 1px solid rgb(60, 120, 190);
+  border-radius: 10px;
+}
